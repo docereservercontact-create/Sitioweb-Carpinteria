@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carpintería Gudiño | Muebles a Medida</title>
+    <title>Carpintería León | Carpintería y Tapicería</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Iconos FontAwesome para redes y contacto -->
+    <!-- Iconos FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <!-- Navegación -->
     <header class="header">
-        <div class="logo">
-            <h2>Carpintería <span>Gudiño</span></h2>
-        </div>
+        <a href="#inicio" class="logo">
+            <img src="Carpinteria León_Logo.png" alt="Carpintería León Logo" class="logo-img">
+        </a>
         <nav class="nav" id="nav-menu">
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Servicios</a>
@@ -27,11 +27,13 @@
         </div>
     </header>
 
-    <!-- Sección Hero / Inicio -->
+    <!-- Sección Hero / Inicio con Parallax -->
     <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Diseño y Fabricación de Muebles a Medida</h1>
-            <p>Transformamos tus ideas en piezas de madera únicas y de alta calidad para tu hogar u oficina.</p>
+        <div class="hero-bg" id="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" id="hero-content">
+            <h1>Transformando tus espacios con calidad y confort</h1>
+            <p class="hero-subtitle">Expertos en carpintería y tapicería desde hace más de 20 años</p>
             <div class="hero-buttons">
                 <a href="#contacto" class="btn btn-primary">Solicitar Cotización</a>
                 <a href="#galeria" class="btn btn-secondary">Ver Trabajos</a>
@@ -45,41 +47,41 @@
         <div class="services-grid">
             <div class="service-card">
                 <i class="fas fa-couch"></i>
-                <h3>Muebles a Medida</h3>
-                <p>Diseño exclusivo de comedores, credenzas, recámaras y libreros adaptados exactamente a tu espacio.</p>
+                <h3>Carpintería a Medida</h3>
+                <p>Diseño y fabricación de comedores, closets, credenzas, libreros y muebles a la medida exacta de tus espacios.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chair"></i>
+                <h3>Tapicería Profesional</h3>
+                <p>Restauración, retapizado y diseño de salas, sillones, sillas y cabeceras con telas de alta durabilidad y confort.</p>
             </div>
             <div class="service-card">
                 <i class="fas fa-utensils"></i>
                 <h3>Cocinas Integrales</h3>
-                <p>Cocinas modernas y funcionales con acabados de primera, herrajes de cierre lento y alta durabilidad.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-door-open"></i>
-                <h3>Carpintería Arquitectónica</h3>
-                <p>Puertas principales e interiores, vestidores (walk-in closets), lambrines y pérgolas.</p>
+                <p>Cocinas funcionales y modernas con acabados de primera, herrajes de cierre lento y optimización de espacio.</p>
             </div>
             <div class="service-card">
                 <i class="fas fa-tools"></i>
-                <h3>Restauración y Mantenimiento</h3>
-                <p>Recuperación de piezas de madera, barnizado y mantenimiento preventivo para interiores y exteriores.</p>
+                <h3>Mantenimiento y Barniz</h3>
+                <p>Restauración de piezas de madera, cambio de espumas, barnizados y mantenimiento preventivo para tus muebles.</p>
             </div>
         </div>
     </section>
 
-    <!-- Nosotros / Calidad -->
+    <!-- Nosotros -->
     <section id="nosotros" class="about">
         <div class="about-text">
-            <h2>Pasión por los Detalles y la Madera</h2>
-            <p>En Carpintería Gudiño combinamos la carpintería artesanal tradicional con técnicas y acabados modernos. Trabajamos con maderas de primera calidad para garantizar muebles duraderos, funcionales y con acabados estéticos impecables.</p>
+            <h2>Más de 20 Años de Experiencia</h2>
+            <p>En Carpintería León combinamos el oficio artesanal con acabados de alta calidad para renovar y dar vida a tus espacios. Cuidamos cada detalle desde la selección de materiales hasta la entrega final.</p>
             <ul class="about-list">
-                <li><i class="fas fa-check"></i> Atención personalizada y asesoría en diseño.</li>
-                <li><i class="fas fa-check"></i> Selección de maderas nacionales e importadas.</li>
-                <li><i class="fas fa-check"></i> Entregas puntuales e instalación profesional.</li>
+                <li><i class="fas fa-check"></i> Asesoría en diseño y selección de materiales.</li>
+                <li><i class="fas fa-check"></i> Variedad de maderas y telas de alta resistencia.</li>
+                <li><i class="fas fa-check"></i> Puntualidad en entregas e instalación profesional.</li>
             </ul>
         </div>
     </section>
 
-    <!-- Galería de Proyectos -->
+    <!-- Galería -->
     <section id="galeria" class="gallery">
         <h2 class="section-title">Proyectos Recientes</h2>
         <div class="gallery-grid">
@@ -88,34 +90,34 @@
                 <div class="overlay"><h3>Cocinas Integrales</h3></div>
             </div>
             <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80" alt="Mueble de Madera">
-                <div class="overlay"><h3>Muebles de Sala</h3></div>
+                <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80" alt="Tapicería de Salas">
+                <div class="overlay"><h3>Tapicería y Salas</h3></div>
             </div>
             <div class="gallery-item">
                 <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80" alt="Closet y Vestidor">
                 <div class="overlay"><h3>Closets y Vestidores</h3></div>
             </div>
             <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1540518614846-7ede433c5172?auto=format&fit=crop&w=600&q=80" alt="Puertas de Madera">
-                <div class="overlay"><h3>Puertas Principales</h3></div>
+                <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80" alt="Muebles a Medida">
+                <div class="overlay"><h3>Muebles Especiales</h3></div>
             </div>
         </div>
     </section>
 
-    <!-- Sección de Contacto -->
+    <!-- Contacto -->
     <section id="contacto" class="contact">
         <h2 class="section-title">Cotiza tu Proyecto</h2>
         <div class="contact-container">
             <div class="contact-info">
                 <h3>Ponte en contacto</h3>
-                <p>Platícanos tu idea y con gusto te brindamos un presupuesto a la medida.</p>
+                <p>Envíanos los detalles o medidas de tu proyecto y con gusto te presupuestamos.</p>
                 <div class="info-item">
                     <i class="fas fa-phone"></i>
                     <span>+52 55 1234 5678</span>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-envelope"></i>
-                    <span>contacto@carpinteriagudino.com</span>
+                    <span>contacto@carpinterialeon.com</span>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-map-marker-alt"></i>
@@ -131,7 +133,7 @@
                     <input type="tel" id="telefono" placeholder="Teléfono / WhatsApp" required>
                 </div>
                 <div class="input-group">
-                    <textarea id="mensaje" rows="4" placeholder="Describe tu proyecto (medidas, tipo de mueble, madera de preferencia...)" required></textarea>
+                    <textarea id="mensaje" rows="4" placeholder="Describe tu proyecto (tipo de mueble, servicio de carpintería o tapicería, medidas...)" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Enviar por WhatsApp <i class="fab fa-whatsapp"></i></button>
             </form>
@@ -140,7 +142,10 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Carpintería Gudiño. Todos los derechos reservados.</p>
+        <div class="footer-logo">
+            <img src="Carpinteria León_Logo.png" alt="Carpintería León" class="footer-logo-img">
+        </div>
+        <p>&copy; 2026 Carpintería León. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Botón Flotante de WhatsApp -->
