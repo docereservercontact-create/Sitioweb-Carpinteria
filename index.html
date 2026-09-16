@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpintería Gudiño | Muebles a Medida</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos FontAwesome para redes y contacto -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="header">
+        <div class="logo">
+            <h2>Carpintería <span>Gudiño</span></h2>
+        </div>
+        <nav class="nav" id="nav-menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto" class="btn-nav">Cotizar</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Sección Hero / Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Diseño y Fabricación de Muebles a Medida</h1>
+            <p>Transformamos tus ideas en piezas de madera únicas y de alta calidad para tu hogar u oficina.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Solicitar Cotización</a>
+                <a href="#galeria" class="btn btn-secondary">Ver Trabajos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-couch"></i>
+                <h3>Muebles a Medida</h3>
+                <p>Diseño exclusivo de comedores, credenzas, recámaras y libreros adaptados exactamente a tu espacio.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Cocinas Integrales</h3>
+                <p>Cocinas modernas y funcionales con acabados de primera, herrajes de cierre lento y alta durabilidad.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-door-open"></i>
+                <h3>Carpintería Arquitectónica</h3>
+                <p>Puertas principales e interiores, vestidores (walk-in closets), lambrines y pérgolas.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tools"></i>
+                <h3>Restauración y Mantenimiento</h3>
+                <p>Recuperación de piezas de madera, barnizado y mantenimiento preventivo para interiores y exteriores.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros / Calidad -->
+    <section id="nosotros" class="about">
+        <div class="about-text">
+            <h2>Pasión por los Detalles y la Madera</h2>
+            <p>En Carpintería Gudiño combinamos la carpintería artesanal tradicional con técnicas y acabados modernos. Trabajamos con maderas de primera calidad para garantizar muebles duraderos, funcionales y con acabados estéticos impecables.</p>
+            <ul class="about-list">
+                <li><i class="fas fa-check"></i> Atención personalizada y asesoría en diseño.</li>
+                <li><i class="fas fa-check"></i> Selección de maderas nacionales e importadas.</li>
+                <li><i class="fas fa-check"></i> Entregas puntuales e instalación profesional.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Galería de Proyectos -->
+    <section id="galeria" class="gallery">
+        <h2 class="section-title">Proyectos Recientes</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80" alt="Cocina de Madera">
+                <div class="overlay"><h3>Cocinas Integrales</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80" alt="Mueble de Madera">
+                <div class="overlay"><h3>Muebles de Sala</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80" alt="Closet y Vestidor">
+                <div class="overlay"><h3>Closets y Vestidores</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1540518614846-7ede433c5172?auto=format&fit=crop&w=600&q=80" alt="Puertas de Madera">
+                <div class="overlay"><h3>Puertas Principales</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact">
+        <h2 class="section-title">Cotiza tu Proyecto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Ponte en contacto</h3>
+                <p>Platícanos tu idea y con gusto te brindamos un presupuesto a la medida.</p>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+52 55 1234 5678</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contacto@carpinteriagudino.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Estado de México, México</span>
+                </div>
+            </div>
+
+            <form class="contact-form" id="form-cotizacion">
+                <div class="input-group">
+                    <input type="text" id="nombre" placeholder="Nombre Completo" required>
+                </div>
+                <div class="input-group">
+                    <input type="tel" id="telefono" placeholder="Teléfono / WhatsApp" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="mensaje" rows="4" placeholder="Describe tu proyecto (medidas, tipo de mueble, madera de preferencia...)" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar por WhatsApp <i class="fab fa-whatsapp"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Carpintería Gudiño. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/525512345678" class="whatsapp-btn" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
